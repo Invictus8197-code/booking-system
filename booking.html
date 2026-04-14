@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Session</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="confirmation.html">
+<header class="navbar">
+  <h2>Pragya Yog</h2>
+</header>
+
+<section class="booking">
+  <h1>Book Your Yoga Session</h1>
+
+  <div class="form-box">
+
+    <h3>1. Your Information</h3>
+    <input type="text" required placeholder="First Name">
+    <input type="text" required placeholder="Last Name">
+    <input type="email" required placeholder="Email">
+    <input type="text" required placeholder="Phone">
+
+    <h3>2. Choose Class</h3>
+      <select required>
+           <option value="">Select Class</option>
+           <option>Foundation Flow</option>
+           <option>Vinyasa Practice</option>
+           <option>Evening Relaxation</option>
+      </select>
+
+      <select required>
+          <option value="">Select Level</option>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+      </select>
+
+    <h3>3. Select Date & Time</h3>
+    <input type="date" required>
+
+    <div class="time-slots">
+      <label class="time-option">
+        <input type="radio" name="time">
+        <span>7:00 AM</span>
+      </label>
+
+      <label class="time-option">
+        <input type="radio" name="time">
+        <span>9:00 AM</span>
+      </label>
+
+      <label class="time-option">
+        <input type="radio" name="time">
+        <span>11:00 AM</span>
+      </label>
+
+      <label class="time-option">
+        <input type="radio" name="time">
+        <span>4:00 PM</span>
+      </label>
+
+      <label class="time-option">
+        <input type="radio" name="time">
+        <span>6:00 PM</span>
+      </label>
+
+      <label class="time-option">
+        <input type="radio" name="time">
+        <span>7:00 PM</span>
+      </label>
+    </div>
+
+    <h3>4. Additional Notes</h3>
+    <textarea placeholder="Special requests"></textarea>
+
+    <button type="submit" class="btn full">Confirm Booking</button>
+  </div>
+</form>
+
+  <div class="summary">
+    <h3>Booking Summary</h3>
+    <p>Estimated Cost: <strong>Rs 499</strong></p>
+  </div>
+
+</section>
+
+<div class="footer">
+  <p>© 2026 Pragya Yog School | All Rights Reserved</p>
+</div>
+</body>
+</html>
